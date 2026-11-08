@@ -47,7 +47,7 @@ Para encerrar o servidor, pressione `Ctrl+C` no terminal.
 
 ## Configuração da marca e contatos
 
-Edite `js/config.js` para atualizar o nome da confeitaria, o telefone do WhatsApp ou o perfil do Instagram. O telefone deve usar o formato internacional com código do país e apenas algarismos, sem espaços ou sinais; exemplo: `5548999999999`.
+Edite `js/config.js` para atualizar o nome, o endereço da confeitaria, o telefone do WhatsApp ou o perfil do Instagram. O endereço também é usado para gerar um link de pesquisa no Google Maps. O telefone deve usar o formato internacional com código do país e apenas algarismos, sem espaços ou sinais; exemplo: `5548999999999`.
 
 ## Catálogo
 

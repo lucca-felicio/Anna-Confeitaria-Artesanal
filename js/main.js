@@ -1,4 +1,10 @@
-import { BRAND_NAME, getInstagramUrl, getWhatsAppUrl } from "./config.js";
+import {
+  BRAND_ADDRESS,
+  BRAND_NAME,
+  getInstagramUrl,
+  getMapsUrl,
+  getWhatsAppUrl,
+} from "./config.js";
 import {
   categories,
   getCategory,
@@ -199,6 +205,9 @@ const renderRoute = () => {
 
 document.querySelector("#brand-name").textContent = BRAND_NAME;
 document.querySelector("#footer-brand-name").textContent = BRAND_NAME;
+const addressLink = document.querySelector("#brand-address");
+addressLink.textContent = BRAND_ADDRESS;
+addressLink.href = getMapsUrl();
 
 menuToggle.addEventListener("click", () => {
   const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
