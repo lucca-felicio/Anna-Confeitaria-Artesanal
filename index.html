@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5efe6">
+    <meta name="description" content="Conheça os bolos, tortas e cucas da nossa confeitaria artesanal.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Anna Confeitaria Artesanal — confeitaria artesanal">
+    <meta property="og:description" content="Pequenos detalhes, sabores que encantam.">
+    <meta property="og:image" content="assets/images/bolo-morango-ilustrativo.jpg">
+    <title>Anna Confeitaria Artesanal — confeitaria artesanal</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='20' fill='%23f5efe6'/%3E%3Cpath d='M20 7c-5 0-9 4-9 9 0 8 9 17 9 17s9-9 9-17c0-5-4-9-9-9Z' fill='none' stroke='%23a96f79' stroke-width='1.5'/%3E%3Ccircle cx='20' cy='17' r='3' fill='%23c6a45d'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#page-content">Pular para o conteúdo</a>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Página inicial">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width=".8"/>
+          <path d="M20 8c-5 0-9 4-9 9 0 7 9 15 9 15s9-8 9-15c0-5-4-9-9-9Z" fill="none" stroke="currentColor" stroke-width="1"/>
+          <circle cx="20" cy="17" r="2.8" fill="currentColor"/>
+        </svg>
+        <span id="brand-name">Anna Confeitaria Artesanal</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Navegação principal">
+        <a href="#inicio" data-nav="inicio">Início</a>
+        <a href="#bolos" data-nav="bolos">Bolos</a>
+        <a href="#tortas" data-nav="tortas">Tortas</a>
+        <a href="#cucas" data-nav="cucas">Cucas</a>
+      </nav>
+
+      <div class="header-contacts" aria-label="Redes sociais e contato">
+        <a class="icon-link" data-contact="instagram" href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram (abre em nova aba)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.7" cy="6.7" r="1" fill="currentColor"/></svg>
+        </a>
+        <a class="icon-link" data-contact="whatsapp" href="https://wa.me/" target="_blank" rel="noreferrer" aria-label="Conversar pelo WhatsApp (abre em nova aba)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.7a8 8 0 0 1-11.8 7l-4.2 1.1 1.1-4.1A8 8 0 1 1 20 11.7Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9 8.5c.3-.5.6-.4.8-.4h.3c.2 0 .4 0 .5.4l.7 1.6c.1.3.1.5-.1.7l-.5.6c-.2.2-.2.4 0 .6.4.7 1 1.3 1.7 1.7.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.5 0 .3-.2 1.1-.7 1.4-.5.4-1.1.5-1.8.3-1-.3-2.2-.9-3.3-2-1.2-1.1-1.8-2.4-2-3.3-.2-.7 0-1.3.5-1.8Z" fill="currentColor"/></svg>
+        </a>
+      </div>
+    </header>
+
+    <main id="page-content" tabindex="-1">
+      <div id="page-view" aria-live="polite"></div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <a class="brand footer-brand" href="#inicio">
+          <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width=".8"/>
+            <path d="M20 8c-5 0-9 4-9 9 0 7 9 15 9 15s9-8 9-15c0-5-4-9-9-9Z" fill="none" stroke="currentColor" stroke-width="1"/>
+            <circle cx="20" cy="17" r="2.8" fill="currentColor"/>
+          </svg>
+          <span id="footer-brand-name">Anna Confeitaria Artesanal</span>
+        </a>
+        <p>Pequenos detalhes, sabores que encantam.</p>
+        <div class="footer-contacts">
+          <a data-contact="instagram" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+          <a data-contact="whatsapp" href="https://wa.me/" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>Confeitaria artesanal</span>
+        <a href="#inicio">Voltar ao início</a>
+      </div>
+    </footer>
+
+    <a class="whatsapp-float" data-contact="whatsapp" href="https://wa.me/" target="_blank" rel="noreferrer" aria-label="Conversar pelo WhatsApp (abre em nova aba)">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.7a8 8 0 0 1-11.8 7l-4.2 1.1 1.1-4.1A8 8 0 1 1 20 11.7Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9 8.5c.3-.5.6-.4.8-.4h.3c.2 0 .4 0 .5.4l.7 1.6c.1.3.1.5-.1.7l-.5.6c-.2.2-.2.4 0 .6.4.7 1 1.3 1.7 1.7.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.5 0 .3-.2 1.1-.7 1.4-.5.4-1.1.5-1.8.3-1-.3-2.2-.9-3.3-2-1.2-1.1-1.8-2.4-2-3.3-.2-.7 0-1.3.5-1.8Z" fill="currentColor"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </body>
+</html>
