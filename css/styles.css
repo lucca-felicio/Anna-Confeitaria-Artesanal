@@ -661,7 +661,7 @@ button:focus-visible {
 .whatsapp-float {
   position: fixed;
   z-index: 8;
-  right: max(1.25rem, env(safe-area-inset-right));
+  left: max(1.25rem, env(safe-area-inset-left));
   bottom: max(1.25rem, env(safe-area-inset-bottom));
   display: inline-flex;
   min-height: 50px;
